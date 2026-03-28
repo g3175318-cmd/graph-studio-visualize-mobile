@@ -134,13 +134,6 @@ graph-studio/
 
 The app is deployed as a static site on **Render**.
 
-To deploy your own copy:
-1. Push the project to a GitHub repository
-2. Go to [render.com](https://render.com) → New → Static Site
-3. Connect your repository
-4. Set the **Publish Directory** to `.`
-5. Click **Deploy** — done!
-
 ---
 
 ## 📸 Screenshots
@@ -154,6 +147,11 @@ To deploy your own copy:
 ## 🙌 Author
 
 **Amlan Dey**
+
+---
+
+  ## 💰 You can help me by Donating
+[![Support Me via UPI](https://img.shields.io/badge/Support_Me-UPI-6739B7?style=for-the-badge&logo=phonepe&logoColor=white)](https://support-me-fbhd.onrender.com)
 
 ---
 
