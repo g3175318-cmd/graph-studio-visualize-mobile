@@ -515,7 +515,7 @@ const ERAS = [
       const vg=IX.createRadialGradient(IW/2,IH/2,IH*.1,IW/2,IH/2,.65*IH);vg.addColorStop(0,'transparent');vg.addColorStop(1,'rgba(0,0,0,.8)');IX.fillStyle=vg;IX.fillRect(0,0,IW,IH);
     }
   },
-  { dur:4200, year:'NOW', name:'GHOSTSPECTAX', sub:'Visualize the invisible — ghost-powered', nc:'#00d4ff', yc:'rgba(0,212,255,.55)',
+  { dur:4200, year:'NOW', name:'GHOSTSPECTRAX', sub:'Visualize the invisible — ghost-powered', nc:'#00d4ff', yc:'rgba(0,212,255,.55)',
     _t:0, _parts:[], _pts:[{x:.1,y:.6},{x:.25,y:.28},{x:.42,y:.5},{x:.56,y:.18},{x:.7,y:.42},{x:.84,y:.14},{x:.95,y:.26}], _lp:0, _ga:0,
     init(){ this._t=0; this._parts=[]; this._lp=0; this._ga=0; },
     update(dt){ this._t+=dt; this._lp=Math.min(1,this._lp+dt*.00042); this._ga=Math.min(1,this._ga+dt*.0011); if(Math.random()<.18) this._parts.push({x:Math.random()*IW,y:Math.random()*IH,vx:(Math.random()-.5)*.45,vy:-Math.random()*.55-.22,r:1+Math.random()*2,h:Math.random()<.5?185:270,l:1}); this._parts=this._parts.filter(p=>p.l>0); this._parts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.l-=.009;}); },
