@@ -44,35 +44,7 @@ Made by **Amlan Dey**
 - Smooth sheet animations with cubic-bezier easing
 - Color-coded points with glow shadows
 
----
-
-## 🚀 Getting Started
-
-### Option 1 — Use the Live App
-Just open the deploy link in any browser (desktop or mobile):
-```
-https://graph-studio-visualize-mobile.onrender.com
-```
-
-### Option 2 — Run Locally
-No build step, no dependencies to install. Just open the HTML file:
-
-```bash
-# Clone or download the project
-git clone https://github.com/your-username/graph-studio.git
-
-# Open directly in your browser
-open graph_studio.html
-```
-
-Or serve it with any static server:
-```bash
-npx serve .
-# or
-python -m http.server 8080
-```
-
----
+----
 
 ## 🎮 How to Use
 
